@@ -6,7 +6,7 @@ mkdir src \
 cd src \
 git clone oomwoo-one & oomwoo-gazebo repositories \
 cd .. \
-code . \
+code .
 
 Build/open devcontainer in vscode \
 Launch terminal \
