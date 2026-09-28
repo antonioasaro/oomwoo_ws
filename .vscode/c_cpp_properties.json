@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/ros_ws/install/vacuum_ros2_bridge/include/**",
+        "/ros_ws/install/oomwoo_msgs/include/**",
+        "/ros_ws/install/oomwoo_localization_msgs/include/**",
+        "/ros_ws/install/oomwoo_gazebo/include/**",
+        "/ros_ws/install/kaiaai_msgs/include/**",
+        "/ros_ws/install/explore_lite/include/**",
+        "/uros_ws/install/micro_ros_agent/include/**",
+        "/uros_ws/install/micro_ros_msgs/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/ubuntu/oomwoo_ws/src/oomwoo_gazebo/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

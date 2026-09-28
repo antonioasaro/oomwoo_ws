@@ -1,0 +1,5 @@
+kaia config robot.model oomwoo_one
+
+ros2 launch oomwoo_gazebo world.launch.py
+ros2 launch oomwoo_bringup navigation.launch.py use_sim_time:=true slam:=True
+ros2 run kaiaai_teleop teleop_keyboard
