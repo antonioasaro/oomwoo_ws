@@ -1,9 +1,13 @@
 # oomwoo_ws
 
-Create oomwoo_ws directory
-Create src directory
-Clone oomwoo-one & oomwoo-gazebo into ./src
-Create .devcontainer directory with devcontainer.json & Dockerfile
-In oomwoo_ws, run "code ."
-Build devcontainer
-Use ./howto files to colon, launch (each step in a new terminal)
+mkdir oomwoo_ws \
+cd oomwoo_ws \
+mkdir src \
+cd src \
+git clone oomwoo-one & oomwoo-gazebo repositories \
+cd .. \
+code . \
+
+Build/open devcontainer in vscode \
+Launch terminal \
+Source ./howto files to colon, clean, launch (each step in a new terminal) ...
